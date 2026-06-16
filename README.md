@@ -50,11 +50,10 @@ Dashboard includes:
 * Threat Distribution Chart
 * Security Alerts Table
 * Live Monitoring Interface
-* ## Dashboard Preview
 
-![SOC Dashboard](screenshot1.png)
+## Dashboard Preview
 
-
+![SOC Dashboard](Screenshot1.png)
 ## Author
 
 Satish R
