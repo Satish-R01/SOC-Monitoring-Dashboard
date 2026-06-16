@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background: #0b1120;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  text-shadow: 0 0 15px #38bdf8;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-around;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 180px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.card p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.critical {
+  background: #dc2626;
+}
+
+.high {
+  background: #ea580c;
+}
+
+.medium {
+  background: #ca8a04;
+}
+
+.low {
+  background: #16a34a;
+}
+
+.chart-container {
+  margin-top: 40px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.alerts {
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #334155;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #0f172a;
+}
+
+tr:hover {
+  background: #475569;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #94a3b8;
+}
